@@ -1,0 +1,55 @@
+/* 
+    Created on : Mar 11, 2021, 2:55:05 PM
+    Author     : Rajesh
+*/
+body{
+    margin: 0px;
+}
+header{
+    min-height: 50px;
+    background-color: navy;
+    line-height: 40px;
+}
+header>div{
+    margin: 0px;
+    display: inline-block;
+}
+nav{
+    min-height: 40px;
+    background-color: lightgray;
+    line-height: 40px;
+}
+main{
+    min-height: 460px;
+}
+footer{
+    min-height: 40px;
+    background-color: black;
+    line-height: 40px;
+    text-align: center;
+    font-family: monotype corsiva;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+nav>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: verdana;
+    display: inline-block;
+    padding: 0px 20px;
+    color:#424241;
+}
+a:hover{
+    background-color: orange;
+}
+.maincontainer{
+    background-color: gray;
+    text-align: center;
+    padding: 10px
+}
+.center{
+    height:100%;
+    display: inline-block;
+    padding: 20px;
+    text-align: left;
+}
